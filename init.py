@@ -11,8 +11,12 @@ if len(sys.argv) < 2:
 	print("Select a country");
 
 else:
+	os.system("utils/genImport.py "+sys.argv[1].lower())
+
 	if not path.exists("data/"+sys.argv[1].lower()):
 		os.mkdir("data/"+sys.argv[1].lower())
+	if not path.exists("imports/"+sys.argv[1].lower()):
+		os.mkdir("imports/"+sys.argv[1].lower())
 
 	def difference(dataset):
 		diff = list()
