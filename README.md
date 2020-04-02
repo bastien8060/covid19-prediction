@@ -7,7 +7,6 @@ Predicts Covid19 case number for next day for any countries
 run:
 <pre>$ git clone https://github.com/bastien8060/covid19-prediction </pre>
 <pre>$ cd covid19-prediction/ </pre>
-<pre>$ ./init.py (country to download) </pre>
 <br>
 <h3>Dependencies</h3>
 <ul>
@@ -16,6 +15,9 @@ run:
     <li>numpy <pre>pip install numpy</pre></li>
  </ul>
 <h1>Usage</h1>
+<h2> Install country </pre>
+<pre>$ ./init.py (country to download) </pre>
+<br>
 <h2>Predict</h2>
 <pre>$ ./predict.py (country name)</pre>
 <br>
