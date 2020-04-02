@@ -13,6 +13,7 @@ run:
   <li>statsmodels <pre>pip install statsmodels</pre></li>
     <li>pandas <pre>pip install statsmodels</pre></li>
     <li>numpy <pre>pip install numpy</pre></li>
+  <li>matplotlib <pre>pip install matplotlib</pre> or <pre>pip install matplot</pre></li> 
  </ul>
 <h1>Usage</h1>
 <h2> Install country </h2>
