@@ -10,8 +10,8 @@ run:
 <br>
 <h3>Dependencies</h3>
 <ul>
-  <li>statsmodels <pre>pip install statsmodels</pre></li>
-    <li>pandas <pre>pip install statsmodels</pre></li>
+  <li>statsmodels <pre>pip install statsmodels</pre>and<pre>pip3 install statsmodels</pre></li>
+    <li>pandas <pre>pip install pandas</pre></li>
     <li>numpy <pre>pip install numpy</pre></li>
   <li>matplotlib <pre>pip install matplotlib</pre> or <pre>pip install matplot</pre></li> 
  </ul>
