@@ -15,7 +15,7 @@ run:
     <li>numpy <pre>pip install numpy</pre></li>
  </ul>
 <h1>Usage</h1>
-<h2> Install country </pre>
+<h2> Install country </h2>
 <pre>$ ./init.py (country to download) </pre>
 <br>
 <h2>Predict</h2>
