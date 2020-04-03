@@ -80,6 +80,6 @@ else:
 	prediction = '%f' % yhat
 
 	#os.system("./utils/runcmd.sh rm /tmp/"+sys.argv[1]+".csv &> /dev/null")
-	os.system("./utils/reinitback.sh ireland &> /dev/null")
+	os.system("./utils/reinitback.sh "+sys.argv[1]+" &> /dev/null")
 
 	#	os.system("./init.py "+sys.argv[1])

@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 from pandas import read_csv
 from matplotlib import pyplot
 from statsmodels.tsa.ar_model import AR
