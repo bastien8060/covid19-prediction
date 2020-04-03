@@ -2,6 +2,8 @@
 from pandas import read_csv
 from matplotlib import pyplot
 from statsmodels.tsa.ar_model import AR
+#from statsmodels.tsa.holtwinters import ExponentialSmoothing
+#from statsmodels.tsa.vector_ar.var_model import VAR
 from sklearn.metrics import mean_squared_error
 import numpy
 import sys
@@ -25,7 +27,7 @@ else:
 			yhat += coef[i] * history[-i]
 		return yhat
  
-	series = read_csv("../imports/"+sys.argv[1].lower()+"/data.csv", header=0, index_col=0)
+	series = read_csv("../../imports/"+sys.argv[1].lower()+"/data.csv", header=0, index_col=0)
 	# split dataset
 	X = difference(series.values)
 	size = int(len(X) * 0.66)

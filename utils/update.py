@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
 
 else:
 	os.system("utils/reset.sh "+sys.argv[1].lower())
-	os.system("utils/genImport.py "+sys.argv[1].lower())
+	os.system("./init.py "+sys.argv[1].lower())
 	print("updated!")
 
 	# get real observation
