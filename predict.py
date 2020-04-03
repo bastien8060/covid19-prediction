@@ -79,7 +79,7 @@ else:
 	print('5th Prediction: %f' % yhat)
 	prediction = '%f' % yhat
 
-	os.system("rm /tmp/"+sys.argv[1]+".csv &> /dev/null")
-	os.system("./utils/reinitback.sh ireland")
+	os.system("./utils/runcmd.sh rm /tmp/"+sys.argv[1]+".csv &> /dev/null")
+	os.system("./utils/reinitback.sh ireland &> /dev/null")
 
 	#	os.system("./init.py "+sys.argv[1])
