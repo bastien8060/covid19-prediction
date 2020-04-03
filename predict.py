@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 from statsmodels.tsa.ar_model import ARResults
 import numpy
 from pandas import read_csv
