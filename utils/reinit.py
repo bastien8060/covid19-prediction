@@ -37,7 +37,7 @@ else:
 		return numpy.array(diff)
 
 	# load dataset
-	series = read_csv('/tmp/'+sys.argv[1].lower()+'.csv', header=0, index_col=0)
+	series = read_csv('tmp/'+sys.argv[1].lower()+'.csv', header=0, index_col=0)
 	X = difference(series.values)
 	# fit model
 	model = AR(X)
