@@ -21,7 +21,8 @@ else:
 	last_ob = numpy.load('data/'+sys.argv[1]+'/ar_obs.npy')
 	predictions = model.predict(start=len(data), end=len(data))
 	yhat = predictions[0] + last_ob[0]
-	print('Prediction:')
+	print(' ')
+	print('Tomorrow => Prediction:')
 	prediction = '%f' % yhat
 	datenxtt = str(os.system("utils/getNextDay.sh "+sys.argv[1]+" "+round))
 	datenxt = datenxtt[:-1]	
@@ -40,7 +41,7 @@ else:
 	last_ob = numpy.load('data/'+sys.argv[1]+'/ar_obs.npy')
 	predictions = model.predict(start=len(data), end=len(data))
 	yhat = predictions[0] + last_ob[0]
-	print('2nd Prediction:')
+	print('2nd day => Prediction:')
 	prediction = '%f' % yhat
 	datenxtt = str(os.system("utils/getNextDay.sh "+sys.argv[1]+" "+round))
 	datenxt = datenxtt[:-1]
@@ -57,7 +58,7 @@ else:
 	last_ob = numpy.load('data/'+sys.argv[1]+'/ar_obs.npy')
 	predictions = model.predict(start=len(data), end=len(data))
 	yhat = predictions[0] + last_ob[0]
-	print('Prediction:')
+	print('3rd day => Prediction:')
 	prediction = '%f' % yhat
 	datenxtt = str(os.system("utils/getNextDay.sh "+sys.argv[1]+" "+round))
 	datenxt = datenxtt[:-1]
@@ -75,7 +76,7 @@ else:
 	last_ob = numpy.load('data/'+sys.argv[1]+'/ar_obs.npy')
 	predictions = model.predict(start=len(data), end=len(data))
 	yhat = predictions[0] + last_ob[0]
-	print('Prediction:')
+	print('4th day => Prediction:')
 	prediction = '%f' % yhat
 	datenxtt = str(os.system("utils/getNextDay.sh "+sys.argv[1]+" "+round))
 	datenxt = datenxtt[:-1]
@@ -93,7 +94,7 @@ else:
 	last_ob = numpy.load('data/'+sys.argv[1]+'/ar_obs.npy')
 	predictions = model.predict(start=len(data), end=len(data))
 	yhat = predictions[0] + last_ob[0]
-	print('Prediction:')
+	print('5th day => Prediction:')
 	prediction = '%f' % yhat
 	datenxtt = str(os.system("utils/getNextDay.sh "+sys.argv[1]+" "+round))
 	datenxt = datenxtt[:-1]
